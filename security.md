@@ -1,1 +1,3 @@
-
+The intended users of this repo are myself and you, the professor.
+There is very little risks of security threats if this code or data fell into the wrong hands.At worst, someone simply gets access to my homework answers.
+In this case no changes to the security of the repo are necessary. The repo being public to view is fine, since the only thing to view are homework answers; there are no other collaborators who can write directly to the repository. Changes to CODEOWNERS or the ruleset for pull requests are not necessary, since I do not expect pull requests for this repository; if this was a collaborative project, these protections would help ensure that the pull request is approved by the correct people.
