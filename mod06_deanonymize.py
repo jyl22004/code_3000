@@ -21,6 +21,7 @@ def link_records(anon_df, aux_df):
     merged_df = pd.merge(anon_df, aux_df, 'inner', on = ['age', 'zip3','gender'])
     merged_df = merged_df.drop(columns=['age','zip3','gender'])
     merged_df = merged_df.drop_duplicates(subset = 'anon_id', keep = False)
+    merged_df = merged_df.rename(columns={'name': 'matched_name'})
     return merged_df
 
 
